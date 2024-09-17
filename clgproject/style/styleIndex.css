@@ -1,0 +1,43 @@
+h1{
+    background-color: crimson;
+    color: azure;
+    text-align: center;
+    margin: auto;
+ }
+ nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+ }
+ nav {
+    background-color: black; 
+    overflow: hidden;
+ }
+ nav a:hover{
+    color: tomato;
+ }
+footer{
+   text-align: center;
+}
+
+ .card-grid{
+   display: flex;
+   justify-content: space-around; 
+   padding-inline: 5px;
+   flex-wrap: wrap;
+ }
+ .event1{
+   float: left;
+   border-color: black;
+   background-color:beige;
+   margin-right: 5px;
+ }
+ .event2{
+   float: left;
+   border-color: black;
+   background-color:beige;
+   margin-right: 5px;
+   margin-left: 5px;
+ }

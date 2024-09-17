@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+img{
+    float: right;
+    padding: 25px 25px;
+}
+p{
+    font-family: Arial,  sans-serif;
+    color: black;
+}
+.card-grid{
+    display: flex;
+   justify-content: space-around; 
+   padding-inline: 5px;
+   flex-wrap: wrap;
+ 
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fee Payment</title>
+    <link rel="stylesheet" href="style/payfess.css">
+</head>
+
+<body>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td>
+                    Card Type:
+                    <select name="card_type" id="card_type" required>
+                        <option value="">- Select card type -</option>
+                        <option value="visa">Visa</option>
+                        <option value="rupay">Rupay</option>
+                        <option value="mastercard">Mastercard</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Card Number:
+                    <input type="text" name="card_number" id="card_number" required pattern="\d{13,19}"
+                        title="Card number should be between 13 and 19 digits">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Expiry Date (MM/YY):
+                    <input type="text" name="expiry" id="expiry" placeholder="MM/YY" required pattern="\d{2}/\d{2}"
+                        title="Enter expiry date in MM/YY format">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CVV:
+                    <input type="password" name="cvv" id="cvv" required pattern="\d{3,4}"
+                        title="CVV should be 3 or 4 digits">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Pay Now">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <footer>
+        <fieldset>@copyright Created by Aditya Rajput</fieldset>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+    color: antiquewhite;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.email,
+.contact {
+    text-align: left;
+}
+
+.contact-button {
+    background-color: #333;
+    color: antiquewhite;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.contact-button:hover {
+    color: rgb(120, 120, 180);
+}

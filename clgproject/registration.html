@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style/registration.css">
+</head>
+
+<body>
+    <form action="payfees.html" method="get">
+        <h1 class="main_heading">Registration</h1>
+        <table>
+            <tr>
+                <td>
+                    <p>First Name: <input type="text" name="firstName" required placeholder="First name"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Last Name: <input type="text" name="lastName" required placeholder="Last name"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <p>
+                            Male:
+                            <input type="radio" name="gender" id="male" required>
+                            Female:
+                            <input type="radio" name="gender" id="female" required>
+                        </p>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Address: <textarea name="address" id="address" rows="10" cols="50" required></textarea></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Email: <input type="email" name="email" id="email" required></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Phone No.: <input type="tel" name="studentPhoneNo"  required></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Alternate Phone No.: <input type="tel" name="parentPhoneNo" required></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Pay Fees</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <footer>
+        <fieldset>@copyright Created by Aditya Rajput</fieldset>
+    </footer>
+</body>
+
+</html>
